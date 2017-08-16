@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/eye_in_hand4"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp" >
+
+        <Button
+            android:id="@+id/ButtonCompare"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/take_compare" />
+
+        <Button
+            android:id="@+id/buttonTakePhoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/take_photo" />
+
+        <Button
+            android:id="@+id/ButtonTakeAutomatic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/take_automatic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+    </RelativeLayout>
+
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="53dp"
+        android:layout_weight="0.03" >
+
+        <Button
+            android:id="@+id/ButtonListItems"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/buttonHelp"
+            android:background="@drawable/list_items" />
+
+        <Button
+            android:id="@+id/buttonHelp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_help" />
+
+    </RelativeLayout>
+
+</LinearLayout>

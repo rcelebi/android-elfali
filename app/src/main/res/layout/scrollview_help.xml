@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+         <Button
+            android:id="@+id/buttonTakePhoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/take_photo" />
+
+            <TextView
+                android:id="@+id/textLine1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="@string/description_info"
+                android:textSize="20sp" />
+            <!--android:text="@string/help_manuel"-->
+
+       <Button
+            android:id="@+id/ButtonTakeAutomatic"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/take_automatic" />
+
+            <TextView
+                android:id="@+id/textLine2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="@string/description_info"
+                android:textSize="20sp" />
+            <!--android:text="@string/help_automatic"-->
+
+        <Button
+            android:id="@+id/ButtonCompare"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/take_compare" />
+
+            <TextView
+                android:id="@+id/textLine3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:text="@string/description_info"
+                android:textSize="20sp" />
+            <!--android:text="@string/help_comparsion"-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
